@@ -1,9 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.13">
   <diagram name="Página-1" id="WYPSLjSaFbF_0wNMysqS">
-    <mxGraphModel>
+    <mxGraphModel dx="987" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LfT3OuOdZkfybtMARSPw-6" value="Servidor DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-110" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfT3OuOdZkfybtMARSPw-8" target="LfT3OuOdZkfybtMARSPw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-15" value="Consultas SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfT3OuOdZkfybtMARSPw-10">
+          <mxGeometry x="0.0967" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-8" value="Servidor Web rodando Django" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-110" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-9" value="Browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.538;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LfT3OuOdZkfybtMARSPw-8" target="LfT3OuOdZkfybtMARSPw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-12" value="&#xa;Aplicação Django&#xa;&#xa;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-13" value="Banco de Dados Relacional" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LfT3OuOdZkfybtMARSPw-14" value="Navegador Web" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
